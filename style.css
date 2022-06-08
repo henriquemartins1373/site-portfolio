@@ -110,11 +110,27 @@ aside ul a li:hover {
 }
 
 /* "Sobre" */
-article {
+section {
     background: #932BD9;
     color: white;
     padding: 30px 15px;
     height: 100%;
+}
+
+#container-card {
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 30px;
+    width: 400px;
+    height: 550px;
+    color: #393440;
+    
 }
 
 
